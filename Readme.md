@@ -24,11 +24,8 @@ After installing the app, you can register a new account or log in with an exist
 ## Routes/Links
 
 - `/login`: User login page
-- `/register`: User registration page
 - `/products`: List of all products
-- `/products/{category}`: List of products in a specific category
 - `/cart`: User's shopping cart
-- `/checkout`: Checkout page
 
 ## Contributing
 
