@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_min_price"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:hint="Minimum price"
+        android:layout_height="wrap_content" />
+    
+    <EditText
+        android:id="@+id/et_max_price"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:hint="Maximum price"
+        android:layout_height="wrap_content" />
+    
+    <EditText
+        android:id="@+id/et_min_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="Minimum rating" />
+    
+    <EditText
+        android:id="@+id/et_max_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="Maximum rating" />
+    
+    <EditText
+        android:id="@+id/et_min_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="Minimum reviews" />
+    
+    <EditText
+        android:id="@+id/et_max_reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="Maximum reviews" />
+</LinearLayout>
